@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('welcome');
 });
 // Dashboard Route
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

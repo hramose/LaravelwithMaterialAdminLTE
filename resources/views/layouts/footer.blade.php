@@ -261,3 +261,5 @@
 <!-- AdminLTE for demo purposes -->
 
 <script src="{{ asset("/js/demo.js") }}"></script>
+
+@endsection
